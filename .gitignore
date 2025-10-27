@@ -1,1 +1,20 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Datos pesados
 data/
+*.csv
+*.zip
+
+# Checkpoints y temporales
+__pycache__/
+.ipynb_checkpoints/
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
